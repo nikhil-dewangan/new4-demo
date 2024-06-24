@@ -5,3 +5,12 @@ The header typically consists of two parts:
 
 * Type of token: JWT
 * Algorithm used: For example, HMAC SHA256 or RSA
+
+2. Payload
+The payload contains the claims. Claims are statements about an entity (typically, the user) and additional data. There are three types of claims:
+
+* Registered claims: These are predefined claims which are not mandatory but recommended, like iss (issuer), exp (expiration time), sub (subject), aud (audience), etc.
+* Public claims: These can be defined at will by those using JWTs but should be collision-resistant.
+* Private claims: Custom claims created to share information between parties that agree on using them.
+
+
