@@ -17,14 +17,7 @@ The payload contains the claims. Claims are statements about an entity (typicall
 To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
 
-app.get('/users', (req, res) => {
-  res.json(users);
-});
 
-app.get('/users/:id', (req, res) => {
-  const user = users.find(u => u.id === parseInt(req.params.id));
-  if (!user) return res.status(404).send('User not found');
-  res.json(user);
 });
 
 
