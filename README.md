@@ -17,6 +17,8 @@ The payload contains the claims. Claims are statements about an entity (typicall
 3. Signature
 To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
+#Security Considerations.
+
 
 
 });
