@@ -19,6 +19,13 @@ To create the signature part you have to take the encoded header, the encoded pa
 
 #Security Considerations.
 
+1. Secret Key: The secret key used to sign the JWT must be kept safe. If someone gets hold of it, they can create valid tokens.
+
+2. Expiration: Always set an expiration for the JWT to reduce the risk of it being used indefinitely.
+
+3. Transport Security: Always use HTTPS to prevent tokens from being intercepted in transit.
+
+4. Algorithm Choice: Be cautious of the algorithm used to sign the JWT. Some algorithms are more secure than others.
 
 
 });
