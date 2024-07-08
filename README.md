@@ -15,7 +15,7 @@ independent timing and flexibility, with interactions occurring at different tim
 * Private claims: Custom claims created to share information between parties that agree on using them.
 
 3. Signature
-To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
+   To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
 #Security Considerations.
 
