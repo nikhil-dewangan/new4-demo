@@ -1,5 +1,6 @@
 # Definition: 
-The Internet is a global network of interconnected networks that use standardized communication protocols (TCP/IP) to link billions of devices worldwide. It is a network of networks.
+The Internet is a global network of interconnected networks that use standardized 
+communication protocols (TCP/IP) to link billions of devices worldwide. It is a network of networks.
 
 
 
