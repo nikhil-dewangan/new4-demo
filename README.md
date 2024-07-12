@@ -67,6 +67,25 @@ var ReactDebugCurrentFrame = {};
 
       return stack;
     };
+
+    // -----------------------------------------------------------------------------
+
+  var enableScopeAPI = false; // Experimental Create Event Handle API.
+  var enableCacheElement = false;
+  var enableTransitionTracing = false; // No known bugs, but needs performance testing
+
+  var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
+  // stuff. Intended to enable React core members to more easily debug scheduling
+  // issues in DEV builds.
+
+  var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
+
+  var ReactSharedInternals = {
+    ReactCurrentDispatcher: ReactCurrentDispatcher,
+    ReactCurrentBatchConfig: ReactCurrentBatchConfig,
+    ReactCurrentOwner: ReactCurrentOwner
+  };
+
   }
 
 
