@@ -33,8 +33,41 @@ independent timing and flexibility, with interactions occurring at different tim
 
 4. Algorithm Choice: Be cautious of the algorithm used to sign the JWT. Some algorithms are more secure than others.
 
+var ReactDebugCurrentFrame = {};
+  var currentExtraStackFrame = null;
+  function setExtraStackFrame(stack) {
+    {
+      currentExtraStackFrame = stack;
+    }
+  }
 
-});
+  {
+    ReactDebugCurrentFrame.setExtraStackFrame = function (stack) {
+      {
+        currentExtraStackFrame = stack;
+      }
+    }; // Stack implementation injected by the current renderer.
+
+
+    ReactDebugCurrentFrame.getCurrentStack = null;
+
+    ReactDebugCurrentFrame.getStackAddendum = function () {
+      var stack = ''; // Add an extra top frame while an element is being validated
+
+      if (currentExtraStackFrame) {
+        stack += currentExtraStackFrame;
+      } // Delegate to the injected renderer-specific implementation
+
+
+      var impl = ReactDebugCurrentFrame.getCurrentStack;
+
+      if (impl) {
+        stack += impl() || '';
+      }
+
+      return stack;
+    };
+  }
 
 
 
