@@ -77,13 +77,6 @@ var ReactDebugCurrentFrame = {};
   // stuff. Intended to enable React core members to more easily debug scheduling
   // issues in DEV builds.
 
-  var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
-
-  var ReactSharedInternals = {
-    ReactCurrentDispatcher: ReactCurrentDispatcher,
-    ReactCurrentBatchConfig: ReactCurrentBatchConfig,
-    ReactCurrentOwner: ReactCurrentOwner
-  };
 
   }
 
