@@ -76,7 +76,9 @@ var ReactDebugCurrentFrame = {};
   var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
   // stuff. Intended to enable React core members to more easily debug scheduling
   // issues in DEV builds.
-  }
+
+  An object literal is a list of name:value pairs inside curly braces {}.
+  {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}.
 
 
 
