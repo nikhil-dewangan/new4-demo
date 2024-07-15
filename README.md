@@ -40,7 +40,6 @@ var ReactDebugCurrentFrame = {};
       currentExtraStackFrame = stack;
     }
   }
-
   {
     ReactDebugCurrentFrame.setExtraStackFrame = function (stack) {
       {
