@@ -8,7 +8,7 @@ independent timing and flexibility, with interactions occurring at different tim
 1. Header
    The header typically consists of two parts:
 
-* Type of token: JWT
+* Type of token: JWT,
 * Algorithm used: For example, HMAC SHA256 or RSA
 
 2. Payload
