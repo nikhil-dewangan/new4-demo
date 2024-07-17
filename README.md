@@ -45,6 +45,7 @@ var ReactDebugCurrentFrame = {};
       }
     }; // Stack implementation injected by the current renderer.
 
+   
     ReactDebugCurrentFrame.getCurrentStack = null;
 
     ReactDebugCurrentFrame.getStackAddendum = function () {
