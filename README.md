@@ -47,14 +47,11 @@ var ReactDebugCurrentFrame = {};
     }; // Stack implementation injected by the current renderer.
 
    
-    ReactDebugCurrentFrame.getCurrentStack = null;
+   const sum = (param1, param2) => { 
+  return param1 + param2; 
+}; 
+console.log(sum(2,5)); // => 7 
 
-    ReactDebugCurrentFrame.getStackAddendum = function () {
-      var stack = ''; // Add an extra top frame while an element is being validated
-
-      if (currentExtraStackFrame) {
-        stack += currentExtraStackFrame;
-      } // Delegate to the injected renderer-specific implementation
 
 
       var impl = ReactDebugCurrentFrame.getCurrentStack;
