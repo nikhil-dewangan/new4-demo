@@ -33,6 +33,12 @@ independent timing and flexibility, with interactions occurring at different tim
 4. Algorithm Choice: Be cautious of the algorithm used to sign the JWT. Some algorithms are more secure than others.
 
 var ReactDebugCurrentFrame = {};
+
+  const printHello = () => { 
+  console.log('hello'); 
+}; 
+printHello(); // => hello
+
   var currentExtraStackFrame = null;
   function setExtraStackFrame(stack) {
     {
