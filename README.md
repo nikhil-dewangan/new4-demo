@@ -36,7 +36,8 @@ var ReactDebugCurrentFrame = {};
 
   const printHello = () => { 
   console.log('hello'); 
-}; 
+};
+
 printHello(); // => hello
 
   var currentExtraStackFrame = null;
