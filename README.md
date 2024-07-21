@@ -12,6 +12,8 @@ we use (.) operator to use method chaining and another concept are here literals
 
 * Type of token: JWT,
 * Algorithm used: For example, HMAC SHA256 or RSA
+. object literals
+. constructor
 
 2. Payload
    The payload contains the claims. Claims are statements about an entity (typically, the user) and additional data. There are three types of claims:
