@@ -42,6 +42,7 @@ var ReactDebugCurrentFrame = {};
   console.log('hello'); 
 };
 
+git status.
 printHello(); // => hello
 
   var currentExtraStackFrame = null;
