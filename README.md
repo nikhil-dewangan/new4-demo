@@ -42,6 +42,7 @@ var ReactDebugCurrentFrame = {};
   console.log('hello'); 
 };
 
+`Get -childItem` 
 git status.
 printHello(); // => hello
 
