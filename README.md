@@ -61,10 +61,12 @@ printHello(); // => hello
 
    
    const sum = (param1, param2) => { 
-  return param1 + param2; 
+   return param1 + param2; 
 }; 
 console.log(sum(2,5)); // => 7 
 
+TextEncoder(): Encodes a string into a stream of bytes (usually UTF-8).
+TextDecoder(): Decodes a stream of bytes back into a string.
 
 
       var impl = ReactDebugCurrentFrame.getCurrentStack;
