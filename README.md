@@ -37,6 +37,7 @@ we use (.) operator to use method chaining and another concept are here literals
 4. Algorithm Choice: Be cautious of the algorithm used to sign the JWT. Some algorithms are more secure than others.
 
 git push origin main
+git branch
 
 var ReactDebugCurrentFrame = {};
 
