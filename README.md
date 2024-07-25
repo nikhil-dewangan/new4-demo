@@ -15,6 +15,7 @@ we use (.) operator to use method chaining and another concept are here literals
 . object literals
 . constructor
 event bubbling :it happens in nested element to stop this effect we have a method.
+    event.stopPropogation();
 
 2. Payload
    The payload contains the claims. Claims are statements about an entity (typically, the user) and additional data. There are three types of claims:
