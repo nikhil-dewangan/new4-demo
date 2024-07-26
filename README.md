@@ -28,6 +28,9 @@ event bubbling :it happens in nested element to stop this effect we have a metho
 3. Signature
    To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
+   primitive
+   
+
 # Security Considerations.
 
 1. Secret Key: The secret key used to sign the JWT must be kept safe. If someone gets hold of it, they can create valid tokens.
