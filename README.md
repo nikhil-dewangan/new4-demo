@@ -6,6 +6,7 @@ communication protocols (TCP/IP) to link billions of devices worldwide. It is a 
 In summary, synchronous communication and processes require real-time, simultaneous interaction, while asynchronous communication and processes allow for, 
 independent timing and flexibility, with interactions occurring at different times.
 we use (.) operator to use method chaining and another concept are here literals.
+json: npm start
 
 1. Header
    The header typically consists of two parts:
