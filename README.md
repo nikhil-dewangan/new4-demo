@@ -12,6 +12,8 @@ json: npm start
    The header typically consists of two parts:
    template literals
 
+root.render(parent);
+
 * Type of token: JWT,
 * Algorithm used: For example, HMAC SHA256 or RSA
 . object literals
