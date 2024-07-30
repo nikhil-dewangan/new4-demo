@@ -13,6 +13,7 @@ json: npm start
    template literals
 
 root.render(parent);
+babel is responsible to convert jsx code into react 
 
 * Type of token: JWT,
 * Algorithm used: For example, HMAC SHA256 or RSA
