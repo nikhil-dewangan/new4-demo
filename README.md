@@ -12,6 +12,10 @@ json: npm start
    The header typically consists of two parts:
    template literals
 
+const Heading  = () =>{
+return <span> this is functional component </span>
+}
+
 root.render(parent);
 babel is responsible to convert jsx code into react 
 
