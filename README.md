@@ -15,7 +15,8 @@ json: npm start
 const Heading  = () =>{
 return <span> this is functional component </span>
 }
-
+using div and rap to one to anothers and injecting this is too much and cotrol system.
+{}
 root.render(parent);
 babel is responsible to convert jsx code into react 
 
