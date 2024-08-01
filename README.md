@@ -20,6 +20,10 @@ using div and rap to one to anothers and injecting this is too much and cotrol s
 root.render(parent);
 babel is responsible to convert jsx code into react 
 
+jsx is a java script syntax which is easier to create react elements.
+react and jsx is very different to each others
+jsx is not html.jsx is html like syntax.
+
 * Type of token: JWT,
 * Algorithm used: For example, HMAC SHA256 or RSA
 . object literals
