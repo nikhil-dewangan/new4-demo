@@ -12,6 +12,8 @@ json: npm start
    The header typically consists of two parts:
    template literals
 
+   we using className ="res-card";
+
 const Heading  = () =>{
 return <span> this is functional component </span>
 }
