@@ -17,6 +17,7 @@ json: npm start
 const Heading  = (props) =>{
 <h3>{res-details.props}</h3>
 return <span> this is functional component </span>
+(props)
 }
 using div and rap to one to anothers and injecting this is too much and cotrol system.
 {}
