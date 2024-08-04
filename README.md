@@ -14,7 +14,8 @@ json: npm start
 
    we using className ="res-card";
 
-const Heading  = () =>{
+const Heading  = (props) =>{
+<h3>{res-details.props}</h3>
 return <span> this is functional component </span>
 }
 using div and rap to one to anothers and injecting this is too much and cotrol system.
