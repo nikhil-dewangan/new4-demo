@@ -13,7 +13,7 @@ json: npm start
    template literals
 
    we using className ="res-card";
-   <renders/>
+   <renders resObj = {resData}/>
 
 const Heading  = (props) =>{
 <h3>{res-details.props}</h3>
