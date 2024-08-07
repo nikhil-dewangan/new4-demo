@@ -15,6 +15,8 @@ json: npm start
    we using className ="res-card";
    <renders resObj = {resData}/>
 
+   we use as confi driven ui for taking a data from backend .
+
 const Heading  = (props) =>{
 <h3>{res-details.props}</h3>
 return <span> this is functional component </span>
