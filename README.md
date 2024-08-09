@@ -19,6 +19,7 @@ json: npm start
 
 const Heading  = (props) =>{
 <h3>{res-details.props}</h3>
+
 return <span> this is functional component </span>
 (props)
 }
